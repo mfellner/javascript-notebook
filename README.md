@@ -8,13 +8,13 @@ Contents:
 
 * Jupyter Notebook 4.1.x
 * Conda Python 3.x
-* Node 5.10
+* Node 6.0.0
 * [ijavascript](https://github.com/n-riesco/ijavascript)
 
 ## Usage
 
 ```
-docker run -d -p 8888:8888 mfellner/javascript-notebook
+docker run -d -p 8888:8888 mfellner/javascript-notebook:latest
 ```
 
 ## License

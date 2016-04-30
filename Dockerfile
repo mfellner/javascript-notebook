@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 USER root
-ENV NODE_VERSION 5.10.1
+ENV NODE_VERSION 6.0.0
 ENV NODE_PACKAGE node-v$NODE_VERSION-linux-x64
 RUN mkdir -p $HOME/.node-gyp
 RUN wget -q https://nodejs.org/dist/v${NODE_VERSION}/${NODE_PACKAGE}.tar.xz \
